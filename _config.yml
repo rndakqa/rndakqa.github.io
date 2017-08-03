@@ -49,15 +49,15 @@ author_bio: AKQA is an ideas and innovation company. We exist to create the futu
 
 social:
   - icon: twitter
-    share_url: https://twitter.com/intent/tweet?text=“Anti AI AI — Wearable Artificial Intelligence” 
+    share_url: https://twitter.com/intent/tweet?text=Anti AI AI — Wearable Artificial Intelligence http://antiaiai.info
 
   - icon: github
-    url:  https://github.com/akqarnd
-    share_url: https://github.com/akqarnd
+    url:  https://github.com/rndakqa
+    share_url: https://github.com/rndakqa
     share_title:
     share_link:
 
   - icon: facebook
-    share_url: https://www.facebook.com/sharer/sharer.php?u=http%3A//127.0.0.1%3A4000/
+    share_url: https://www.facebook.com/sharer/sharer.php?u=http%3A//antiaiai.info/
 
 
