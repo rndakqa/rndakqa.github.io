@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Anti AI AI</title>
+  <meta name="description" content="" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  
+  <meta property="og:site_name" content="anti ai ai" />
+  <meta property="og:title" content="Anti AI AI"/>
+  
+  <meta property="og:image" content="http://0.0.0.0:4000/assets/article_images/header.png" />
+  <meta property="og:url" content="http://0.0.0.0:4000/" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2017-05-19T18:34:25+10:00">
+
+  <link rel="canonical" href="http://0.0.0.0:4000/"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url(/assets/article_images/header.png)">
+            Article Image
+          </div>
+          <div class="post-image-image2" style="background-image: url(/assets/article_images/header-mobile.jpg)">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <!-- <h1 class="post-title">ANTI AI AI</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">AKQA R&D</h4>
+              ON
+              <time datetime="2017-05-19 08:34">19 MAY 2017</time>
+            </div> -->
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <h1 id="anti-ai-aiwearable-artificial-intelligence">ANTI AI AI — WEARABLE ARTIFICIAL INTELLIGENCE</h1>
+
+<p>The <a href="https://en.wiktionary.org/wiki/post-truth#English">post-truth</a> era is just getting started. Near the end of 2017 we’ll be consuming content synthesised to mimic real people. Leaving us in a sea of <a href="https://en.wikipedia.org/wiki/Disinformation">disinformation</a> powered by AI and machine learning. The media, <a href="https://www.ft.com/content/0feeafe6-2c01-11e7-9ec8-168383da43b7">giant tech corporations</a> and <a href="https://www.wsj.com/articles/most-students-dont-know-when-news-is-fake-stanford-study-finds-1479752576">citizens</a> already struggle to discern fact from fiction. And as this technology is democratised it will be even more prevalent.</p>
+
+<p>Preempting this we prototyped a device worn on the ear and connected to a neural net trained on real and synthetic voices called Anti AI AI. The device notifies the wearer when a synthetic voice is detected and cools the skin using a <a href="https://en.wikipedia.org/wiki/Thermoelectric_cooling">thermoelectric plate</a> to alert the wearer the voice they are hearing was synthesised: by a cold, lifeless machine.</p>
+
+<!-- ![](/assets/article_images/overlaid.png)  -->
+
+<figure class="medium">
+<img src="/assets/article_images/overlaid.png" alt="" />
+</figure>
+
+<h1 id="a-powerful-iot-device">A POWERFUL IOT DEVICE</h1>
+
+<p>To make this work we developed a custom circuit board using the tiny <a href="https://www.simblee.com/">Simblee</a> BLE Arduino chip, and custom iOS app that streams audio to a <a href="https://www.tensorflow.org/">Tensorflow</a> application running a neural net trained on synthetic voices.</p>
+
+<!-- ![Our PCB is being manufactured https://circuits.io/circuits/4984689-wearable-synthetic-voice-sensor-with-thermal-feedback](/assets/article_images/boards.png)
+ -->
+<figure class="medium">
+<img src="/assets/article_images/greenboard.png" />
+</figure>
+
+<figure class="medium">
+<img src="/assets/article_images/boards.png" />
+<figcaption>Our PCB being <a href="https://circuits.io/circuits/4984689-wearable-synthetic-voice-sensor-with-thermal-feedback">manufactured</a> </figcaption>
+</figure>
+
+<h1 id="thermal-feedback">THERMAL FEEDBACK</h1>
+
+<p>We wanted the device to give the wearer a unique sensation that matched what they were experiencing when a synthetic voice is detected. Common feedback mechanisms use light, sound or vibration to alert users. By using a 4x4mm <a href="https://en.wikipedia.org/wiki/Thermoelectric_cooling">thermoelectric Peltier plate</a> we were able to create a noticeable chill on the skin near the back of the neck without drawing too much current.</p>
+
+<!-- ![Anti AI AI cooling element – Peltier Module 3.96mm x 3.96mm x 2.40mm](/assets/article_images/peltier.jpeg "Anti AI AI cooling element – Peltier Module 3.96mm x 3.96mm x 2.40mm")
+ -->
+
+<figure class="medium">
+<img src="/assets/article_images/peltier.jpeg" />
+<figcaption>Anti AI AI cooling element – Peltier Module 3.96mm x 3.96mm x 2.40mm</figcaption>
+</figure>
+<p />
+
+<figure class="medium">
+<iframe src="https://player.vimeo.com/video/218113767?color=f58220&amp;title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" alt="Anti AI AI &ndash; Wearable Artificial Intelligence"></iframe><figcaption>Anti AI AI &ndash; Wearable Artificial Intelligence</figcaption>
+</figure>
+
+<h1 id="architecture">ARCHITECTURE</h1>
+
+<p>To tie the hardware together we developed several independent components. Our neural network formed the backbone of the system, remotely classifying audio data being streamed in via a phone (more about the network below). All training was done in an offline step prior to running our classifier. One improvement would be to continually improve the network based on new input it receives ‘in the wild’, but that was a little beyond our five day timeframe. The iPhone app provided the glue between our IOT wearable and the neural network. This ended up being a rather simple app, doing as little processing as possible as ultimately we can see a future state of this project where the device stands alone. The architecture of the whole system is shown below.</p>
+
+<!-- ![](/assets/article_images/arch.png) -->
+
+<figure class="full">
+<img src="/assets/article_images/arch.png" />
+</figure>
+
+<!-- <img src="/assets/article_images/arch.png" width="100%"> -->
+
+<h1 id="keras-and-tensorflow">KERAS AND TENSORFLOW</h1>
+
+<p>Building neural networks has never been more accessible. Keras is a python library that sits on top of Tensorflow and allowed us to build a neural network at a very high level. Rather than just getting something working, we are able to design our network and bring it to life rapidly. Keras essentially does all the work of generating a Tensorflow network, that we can then use to train and subsequently evaluate data. When it comes to actually training the network, Tensorflow still requires decent dedicated hardware to train in any reasonable time frame, and despite having done it several times now, the setup process to get a network training on the GPU remains a challenge.</p>
+
+<p>Cloud infrastructure platforms such as Cloud ML seem promising when it comes to deploying a pre-trained model, but during development having a dedicated machine with a powerful GPU is almost essential. In developing our approach we experimented with several network layouts, including a recurrent network which was in theory, similar to Deepmind’s Wavenet. The neural network we had most success with though was a fairly simple network comprised of multiple 1D convolutional layers. All the code can be found in our <a href="https://github.com/dt-rnd">github</a> repository</p>
+
+<h1 id="next-steps">NEXT STEPS</h1>
+
+<p>This project is a work in progress. In 5 days we created a functional prototype of our wearable AI. An end-to-end powerful Tensorflow neural net connected to a custom wearable BLE device. When the circuit boards arrive from the manufacturer we’ll bring it all together as a wearable device and continue to improve our neural net with more synthetic content as it is released.</p>
+
+<h1 id="project-context">PROJECT CONTEXT</h1>
+
+<p>As AI starts to robustly understand and synthesise all manner of things, from <a href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/">human speech</a> to the <a href="http://genekogan.com/works/style-transfer/">creative style</a> of famous painters, we’re entering an era where anything that can be digitised can be mimicked by AI.</p>
+
+<!-- ![Experiments with style transfer — Gene Kogan](/assets/article_images/mona.jpeg) -->
+
+<figure class="small">
+<img src="/assets/article_images/mona.jpeg" />
+<figcaption>Experiments with style transfer — Gene Kogan</figcaption>
+</figure>
+
+<p>We see the ability to mimic anyone’s voice to say anything as a closing of the loop — if it looks real and sounds real, maybe it is real.</p>
+
+<figure class="small">
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/318658101&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</figure>
+
+<figure class="small">
+<iframe width="1490" height="838" src="https://www.youtube.com/embed/ohmajJTcpNk?ecver=1" frameborder="0" allowfullscreen=""></iframe>
+</figure>
+<figcaption>Face2Face in action</figcaption>
+
+<h1 id="why-is-this-relevant">WHY IS THIS RELEVANT?</h1>
+
+<p>The irony is, the more technology improves the more adversarial it seems to become. Asking us fundamentally difficult questions. A great example being how to design software that chooses the best person/people to kill in a self driving car accident.</p>
+
+<figure class="small">
+<img src="/assets/article_images/moralmachine.png" />
+<figcaption><a href="http://moralmachine.mit.edu/">http://moralmachine.mit.edu/</a></figcaption>
+</figure>
+
+<!-- ![http://moralmachine.mit.edu/](/assets/article_images/moralmachine.png)  -->
+
+<blockquote>
+  <p>“THE FUTURE HOLDS COUNTLESS MORE DIFFICULT QUESTIONS POSED BY TECHNOLOGICAL ADVANCES AND WE WON’T BE ABLE TO ANSWER THEM ALL WITH MORE TECHNOLOGY.”</p>
+</blockquote>
+
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=“Anti AI AI — Wearable Artificial Intelligence”" target="_blank">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+                <a class="icon-github" href="https://github.com/akqarnd" target="_blank">
+                <i class="fa fa-github"></i><span class="hidden">github</span>
+                </a>
+              
+            
+              
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//127.0.0.1%3A4000/" target="_blank">
+                <i class="fa fa-facebook"></i><span class="hidden">facebook</span>
+                </a>
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>WRITTEN BY</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4>AKQA R&D</h4>
+              <p class="bio">AKQA IS AN IDEAS AND INNOVATION COMPANY. WE EXIST TO CREATE THE FUTURE WITH OUR CLIENTS.</p>
+              <!-- <hr> -->
+              <!-- <p class="published">PUBLISHED <time datetime="2017-05-19 08:34">19 MAY 2017</time></p> -->
+            </section>
+          </div>
+          
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>CONTACT US</span></h5>
+            <footer class="site-footer">
+            <p>              
+              <a href="http://akqa.com">AKQA.COM</a>
+              </p>
+              <p>
+              <a href="mailto:rnd@akqa.com">RND@AKQA.COM</a>
+              </p>
+              <!-- <div class="inner">
+                <section class="copyright">All content copyright <a href="/">AKQA R&D</a> &copy; 2017<br>All rights reserved.</section>
+              </div> -->
+            </footer>
+          </div>
+        </div>
+        <!--  -->
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image" >
+        Image
+      </div>
+      <!-- <div class="inner">
+        <h1 class="blog-title">anti ai ai</h1>
+        <h2 class="blog-description"></h2>
+        <a href=/ class="btn">Back to Overview</a>
+      </div> -->
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>
