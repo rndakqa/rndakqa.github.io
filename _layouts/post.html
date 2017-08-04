@@ -65,30 +65,19 @@
           </section>
         </footer>
         <div class="bottom-teaser cf">
-          <div class="isLeft">
-            <h5 class="index-headline featured"><span>WRITTEN BY</span></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url({{site.author_image | prepend: site.baseurl}})">Blog Logo</div>
-              <h4>{{ site.author | upcase }}</h4>
-              <p class="bio">{{site.author_bio | upcase}}</p>
-              <!-- <hr> -->
-              <!-- <p class="published">PUBLISHED <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string | upcase }}</time></p> -->
-            </section>
-          </div>
-          {{/post}}
-          <div class="isRight">
-            <h5 class="index-headline featured"><span>CONTACT US</span></h5>
-            <footer class="site-footer">
-            <p>              
-              <a href="http://akqa.com">AKQA.COM</a>
-              </p>
-              <p>
-              <a href="mailto:rnd@akqa.com">RND@AKQA.COM</a>
-              </p>
-              <!-- <div class="inner">
-                <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
-              </div> -->
-            </footer>
+          <div class="background">
+            <div class="isLeft">
+                <div class="author-image" style="background-image: url({{site.author_image | prepend: site.baseurl}})">Blog Logo</div>
+            </div>
+            {{/post}} 
+            <div>
+              <h5 class="headline">AKQA RND</h5>
+              <p>{{ site.author_bio }}</p>
+            </div>         
+            <div class="isRight">
+              <h5 class="headline">CONTACT US</h5>
+              <p><a href="http://akqa.com">akqa.com</a></p><p><a href="mailto:rnd@akqa.com">rnd@akqa.com</a></p>
+            </div>
           </div>
         </div>
         <!-- {%if site.disqus %}
@@ -108,16 +97,6 @@
         {% endif %} -->
       </article>
     </main>
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
-        Image
-      </div>
-      <!-- <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href={{ "/" | prepend: site.baseurl }} class="btn">Back to Overview</a>
-      </div> -->
-    </div>
     {% include javascripts.html %}
   </body>
 </html>
