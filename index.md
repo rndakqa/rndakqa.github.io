@@ -4,8 +4,8 @@ title:  "Anti AI AI"
 date:   2017-5-19 8:34:25
 categories: mediator feature
 tags: featured
-image: /assets/article_images/header.png
-image2: /assets/article_images/header-mobile.jpg
+image: /assets/article_images/header_old.png
+image2: /assets/article_images/header_old-mobile.jpg
 ---
 
 # Anti Ai Ai — Wearable Artificial Intelligence
