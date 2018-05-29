@@ -25,7 +25,7 @@ url: "http://10.38.11.54/" # the base hostname & protocol for your site, e.g. ht
 
 # Build settings
 markdown: kramdown
-plugins:
+plugins_dir:
   - jekyll-feed
 
 # Exclude from processing.
